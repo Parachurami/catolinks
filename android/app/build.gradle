@@ -136,6 +136,7 @@ android {
     }
     kotlinOptions {
         jvmTarget = "17"
+        jvmToolchain(17)
     }
 
 }
